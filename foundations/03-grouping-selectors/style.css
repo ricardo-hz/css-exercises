@@ -1,0 +1,15 @@
+.element-one,
+.element-two{
+    font-size:28px;
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
+}
+
+.element-one{
+    color: hsl(0, 100%, 50%);
+    background-color: hsl(150, 100%, 30%);
+}
+
+.element-two{
+    color: hsl(270, 100%, 40%);
+    background-color: hsl(30, 100%, 50%);
+}
