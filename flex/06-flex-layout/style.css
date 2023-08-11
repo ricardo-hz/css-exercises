@@ -25,3 +25,30 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+ul
+{
+  list-style-type: none;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  gap: 16px;
+}
+
+/*is there a less hacky way to have the right links not touch the right edge?*/
+.right-links{
+  padding-right: 40px;
+  padding-left: 0px;
+}
